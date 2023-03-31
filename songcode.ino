@@ -1,6 +1,3 @@
-// Adapted J. Pearson 2/25/2018
-// This code plays part of Row Row Row your boat, using basic code.
-// Try this with and without loops and variables.
 
 /*
 Notes chart:
@@ -16,7 +13,7 @@ Notes chart:
 8 4186  4435  4699  4978  5274  5588  5920  6272  6645  7040  7459  7902
 
 tempo: 113 bpm 
-Bmaj: B C# D# E F# G# A#
+Key: Bmaj (B C# D# E F# G# A#)
 */
 int output = 13;
 
@@ -43,7 +40,7 @@ int tempo = 60000/113; // tempo 113 BPM
 // note lengths
 int halfnote = tempo*2;
 int dotquarter = tempo*1.5;
-int quarter = tempo; //assign quarter notes with underlying dotted eighth notes, the dotted eighth note value
+int quarter = tempo; //assign quarter notes with underlying dotted eighth notes, the dotted eighth note value.
 int eighth = tempo/2;
 int doteighth = tempo*.75;
 int sixteenth = tempo/4;
