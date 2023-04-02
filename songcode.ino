@@ -35,7 +35,7 @@ int Eb5 = 622.3;
 int E5 = 659.3;
 int Fs5 = 740;
 // 60000/Tempo= beat duration
-int tempo = 60000/113; // tempo 113 BPM
+int tempo = 60000/120; // tempo 113 BPM
 
 // note lengths
 int halfnote = tempo*2;
