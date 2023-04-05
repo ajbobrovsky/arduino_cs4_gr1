@@ -11,11 +11,13 @@ Notes chart:
 6 1047  1109  1175  1245  1319  1397  1480  1568  1661  1760  1865  1976
 7 2093  2217  2349  2489  2637  2794  2960  3136  3322  3520  3729  3951
 8 4186  4435  4699  4978  5274  5588  5920  6272  6645  7040  7459  7902
-
-tempo: 113 bpm 
+ 
 Key: Bmaj (B C# D# E F# G# A#)
 */
-int output = 13;
+
+//                                                     **Constants**
+
+int output = 13; //buzzer
 
 // note frequencies
 int C4 = 262;
@@ -34,21 +36,28 @@ int Cs5 = 554.4;
 int Eb5 = 622.3;
 int E5 = 659.3;
 int Fs5 = 740;
-// 60000/Tempo= beat duration
-int tempo = 60000/120; // tempo 113 BPM
 
-// note lengths
+// note rythm values
 int halfnote = tempo*2;
 int dotquarter = tempo*1.5;
-int quarter = tempo; //assign quarter notes with underlying dotted eighth notes, the dotted eighth note value.
+int quarter = tempo; 
 int eighth = tempo/2;
 int doteighth = tempo*.75;
 int sixteenth = tempo/4;
 
+//                                                      **variables**
+// 60000/Tempo= beat duration
+int tempo = 60000/120; // tempo 113 BPM
+
 
 void setup()
 {
-for (int i = 0; i < 1; i++){ //CODA
+
+}
+
+void loop()
+{
+  for (int i = 0; i < 1; i++){ 
     //                                                                                  Measure 1,   /// IV section
     //                    F#5 q-note //(underlying dotted eighth note)
     tone(output, Fs5);    
@@ -235,10 +244,5 @@ for (int i = 0; i < 1; i++){ //CODA
     //                                                                                Measure 7 /// V section
     //                      G#4 q-note (dot8th)
 
-}
-
-void loop()
-{
-  
 }
 
