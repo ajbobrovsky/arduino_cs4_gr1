@@ -15,9 +15,17 @@ Notes chart:
 Key: Bmaj (B C# D# E F# G# A#)
 */
 
+
+//                                                    **variables**
+// 60000/Tempo= beat duration
+int tempo = 60000/120; // tempo 113 BPM
+
+
+void setup()
+{
 //                                                     **Constants**
 
-int output = 13; //buzzer
+int output = 13; //
 
 // note frequencies
 int C4 = 262;
@@ -44,15 +52,6 @@ int quarter = tempo;
 int eighth = tempo/2;
 int doteighth = tempo*.75;
 int sixteenth = tempo/4;
-
-//                                                      **variables**
-// 60000/Tempo= beat duration
-int tempo = 60000/120; // tempo 113 BPM
-
-
-void setup()
-{
-
 }
 
 void loop()
