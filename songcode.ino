@@ -1,4 +1,6 @@
 
+
+//                                                                                test 1
 /*
 Notes chart:
   C     C#     D     Eb   E     F     F#    G     G#    A     Bb    B
@@ -15,9 +17,6 @@ Notes chart:
 Key: Bmaj (B C# D# E F# G# A#)
 */
 
-
-void setup()
-{
 //                                                     **Constants**
 
 int output = 13; //
@@ -52,12 +51,16 @@ int sixteenth = tempo/4;
 // 60000/Tempo= beat duration
 int tempo = 60000/120; // tempo 113 BPM
 
+void setup()
+{
+
+
 }
 
 void loop()
 {
   for (int i = 0; i < 1; i++){ 
-    //                                                                                  Measure 1,   /// IV section
+    // ------------------------------------------------------------------------ Measure 1,   /// IV section
     //                    F#5 q-note //(underlying dotted eighth note)
     tone(output, Fs5);    
       delay(doteighth);  
@@ -87,7 +90,7 @@ void loop()
     tone(output,Cs5);
       delay(eighth);
     noTone(output);
-    //                                                                                     Measure 2
+    // ------------------------------------------------------------------------ Measure 2
     //                    E4 doteight     
     tone(output,E4);    
       delay(doteighth);
@@ -116,7 +119,7 @@ void loop()
     tone(output,Cs5);
       delay(eighth);
     noTone(output);
-    //                                                                                    Measure 3   /// ii Section
+    // ------------------------------------------------------------------------Measure 3   /// ii Section
     //                     F#5 q-note
     tone(output,Fs5);
       delay(doteighth); //(underlying dotted eighth note)
@@ -147,7 +150,7 @@ void loop()
     tone(output,Cs5);
       delay(eighth);
     noTone(output);
-    //                                                                                Measure 4
+    //------------------------------------------------------------------------Measure 4
     //                    C#4 dot8th
     tone(output,Cs4);
       delay(doteighth);
@@ -178,7 +181,7 @@ void loop()
     tone(output,Cs5);
       delay(eighth);
     noTone(output);
-    //                                                                                Measure 5 /// iii Section
+    //------------------------------------------------------------------------Measure 5 /// iii Section
     //                    A#4 q-note (dot 8th)
     tone(output,As4);
       delay(doteighth);
@@ -209,7 +212,7 @@ void loop()
     tone(output,Cs4);
       delay(eighth);  
     noTone(output);
-    //                                                                                Measure 6
+    //------------------------------------------------------------------------ Measure 6
     //                      D#4 dot8th
     tone(output,Eb4);
       delay(doteighth);
@@ -240,7 +243,7 @@ void loop()
     tone(output,Cs5);
       delay(eighth);
     noTone(output);
-    //                                                                                Measure 7 /// V section
+    //------------------------------------------------------------------------Measure 7 /// V section
     //                      G#4 q-note (dot8th)
 
 }
