@@ -243,6 +243,16 @@ void loop()
     noTone(output);
     //------------------------------------------------------------------------Measure 7 /// V section
     //                      G#4 q-note (dot8th)
+                          
+    
 
-// hey 
 
+{   // ------------------------------------------------------------------------- MEASURE 32 
+    //                       E3 (dot8th)
+      Tone(output,E3)
+        Delay(doteighth)
+      NoTone(output)
+    //                        B3 (sixteenth)
+      Tone(output,B3)
+        Delay(sixteenth)
+      noTone(output)}
