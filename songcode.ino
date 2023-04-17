@@ -243,6 +243,23 @@ void loop()
     noTone(output);
     //------------------------------------------------------------------------Measure 7 /// V section
     //                      G#4 q-note (dot8th)
+    // ----------------------------------- measure 16 
+    //                      C#5 8th
+    tone (output,E4);
+    delay (doteighth);
+    noTone (output);
+    //
+    tone (output,B4);
+    delay (sixteenth);
+    noTone (output);
+    // ---------------- 8th rest 
+    delay (eighth);
+    //
+    tone (output,C4);
+    delay (eighth);
+    noTone (output);
+    // ----------------------------- measure 17 
+    tone (output,Gs4);
 
 // hey 
 //patricia said hi
