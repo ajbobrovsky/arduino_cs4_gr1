@@ -266,10 +266,17 @@ void loop()
 
 {   // ------------------------------------------------------------------------- MEASURE 32 
     //                       E3 (dot8th)
-      Tone(output,E3)
-        Delay(doteighth)
-      NoTone(output)
+      Tone (output,E3)
+        Delay (doteighth)
+      NoTone (output)
     //                        B3 (sixteenth)
-      Tone(output,B3)
-        Delay(sixteenth)
-      noTone(output)}
+      Tone (output,B3)
+        Delay (sixteenth)
+      noTone (output)
+    // ----------------------- 8th rest
+      Delay (eighth)
+      //
+      Tone (output,cs4)
+        Delay (eighth)
+      noTone (output)
+    )}
