@@ -1,7 +1,7 @@
 
 /*
 Notes chart:
-  C     C#     D     Eb   E     F     F#    G     G#    A     Bb    B
+  C     C#     D     D#   E     F     F#    G     G#    A     A#    B
 0 16.35 17.32 18.35 19.45 20.60 21.83 23.12 24.50 25.96 27.50 29.14 30.87
 1 32.70 34.65 36.71 38.89 41.20 43.65 46.25 49.00 51.91 55.00 58.27 61.74
 2 65.41 69.30 73.42 77.78 82.41 87.31 92.50 98.00 103.8 110.0 116.5 123.5
@@ -20,22 +20,27 @@ Key: Bmaj (B C# D# E F# G# A#)
 int output = 13; //
 
 // note frequencies
-int C4 = 262;
+int Cs3 = 138.6; //------ C's
 int Cs4 = 277.2; 
-int D4 = 294;
-int Eb4 = 311.1;
-int E4 = 330;
-int F4 = 349;
-int Fs4 =370;
-int G4 = 392;
-int Gs4 = 415.3;
-int As4 = 466.2;
-int B4 = 493.9;
-int C5 = 523.3;
 int Cs5 = 554.4;
-int Ds4 = 622.3;
+int Ds3 = 155.6; //------ D's
+int Ds4 = 293.7;
+int Ds5 = 622.3;
+int E3 = 164.8; //------- E's
+int E4 = 329.6;
 int E5 = 659.3;
+int Fs3 = 185; //---------F's
+int Fs4 = 370;
 int Fs5 = 740;
+int Gs3 = 207.7;//--------G's
+int Gs4 = 415.3;
+int Gs5 = 830.6;
+int As3 = 233.1;//--------A's
+int As4 = 466.2;
+int As5 = 932.3;
+int B3 = 246.9;//---------B's
+int B4 = 493.9;
+int B5 = 987.8;
 
 // note rythm values
 int halfnote = tempo*2;
@@ -57,7 +62,7 @@ void setup()
 
 void loop()
 {
-  for (int i = 0; i < 1; i++){ 
+  for (int i = 0; i < 1; i++){
     // ------------------------------------------------------------------------ Measure 1,   /// IV section
     //                    F#5 q-note //(underlying dotted eighth note)
     tone(output, Fs5);    
@@ -234,7 +239,7 @@ void loop()
       delay(eighth);
     noTone(output);
     //                      C#5 q-note (8th)
-}   tone(output,Cs5);
+   tone(output,Cs5);
       delay(eighth);
     noTone(output);
     //                      C#5 8th
@@ -264,7 +269,7 @@ void loop()
     // ----------------------------- measure 17 
     tone (output,Gs4);
 
-{   // ------------------------------------------------------------------------- MEASURE 32 
+   // ------------------------------------------------------------------------- MEASURE 32 
     //                       E3 (dot8th)
       Tone(output,E3)
         Delay(doteighth)
@@ -272,4 +277,10 @@ void loop()
     //                        B3 (sixteenth)
       Tone(output,B3)
         Delay(sixteenth)
-      noTone(output)}
+      noTone(output)
+
+
+
+      //------------------------------------------------------------------------- END OF SONG
+  }
+}
