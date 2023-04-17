@@ -263,7 +263,7 @@ void loop()
     // ---------------- 8th rest 
     delay (eighth);
     //
-    tone (output,C4);
+    tone (output,Cs4);
     delay (eighth);
     noTone (output);
     // ----------------------------- measure 17 
@@ -271,12 +271,12 @@ void loop()
 
    // ------------------------------------------------------------------------- MEASURE 32 
     //                       E3 (dot8th)
-      Tone(output,E3);
-        Delay(doteighth);
-      NoTone(output);
+      tone(output,E3);
+        delay(doteighth);
+      noTone(output);
     //                        B3 (sixteenth)
-      Tone(output,B3);
-        Delay(sixteenth);
+      tone(output,B3);
+        delay(sixteenth);
       noTone(output);
 
 
