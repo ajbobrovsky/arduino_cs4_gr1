@@ -261,5 +261,3 @@ void loop()
     // ----------------------------- measure 17 
     tone (output,Gs4);
 
-// hey 
-//patricia said hi
