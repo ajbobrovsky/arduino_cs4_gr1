@@ -44,7 +44,7 @@ int quarter = tempo;
 int eighth = tempo/2;
 int doteighth = tempo*.75;
 int sixteenth = tempo/4;
-
+int whole = tempo*4;
 //                                                    **variables**
 // 60000/Tempo= beat duration
 int tempo = 60000/120; // tempo 113 BPM
@@ -246,6 +246,23 @@ void loop()
                           
     
 
+    // ----------------------------------- measure 16 
+    //                      C#5 8th
+    tone (output,E4);
+    delay (doteighth);
+    noTone (output);
+    //
+    tone (output,B4);
+    delay (sixteenth);
+    noTone (output);
+    // ---------------- 8th rest 
+    delay (eighth);
+    //
+    tone (output,C4);
+    delay (eighth);
+    noTone (output);
+    // ----------------------------- measure 17 
+    tone (output,Gs4);
 
 {   // ------------------------------------------------------------------------- MEASURE 32 
     //                       E3 (dot8th)
