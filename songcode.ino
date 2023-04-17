@@ -202,7 +202,7 @@ void loop()
       delay(eighth);
     noTone(output);
     //                      D#4 dot8th
-    tone(output,Eb4);
+    tone(output,Ds4);
       delay(doteighth);
     noTone(output);
     //                      A#4 16th  
@@ -217,7 +217,7 @@ void loop()
     noTone(output);
     //------------------------------------------------------------------------ Measure 6
     //                      D#4 dot8th
-    tone(output,Eb4);
+    tone(output,Ds4);
       delay(doteighth);
     noTone(output);
     //                      A#4 16th  
@@ -271,13 +271,13 @@ void loop()
 
    // ------------------------------------------------------------------------- MEASURE 32 
     //                       E3 (dot8th)
-      Tone(output,E3)
-        Delay(doteighth)
-      NoTone(output)
+      Tone(output,E3);
+        Delay(doteighth);
+      NoTone(output);
     //                        B3 (sixteenth)
-      Tone(output,B3)
-        Delay(sixteenth)
-      noTone(output)
+      Tone(output,B3);
+        Delay(sixteenth);
+      noTone(output);
 
 
 
