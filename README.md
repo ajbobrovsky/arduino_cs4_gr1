@@ -53,4 +53,16 @@ make changes to your code
 
 `git commit -m "your latest message"`
 
+check latest version 
+
+`git pull` 
+
+`git status`
+
+`git add .`
+
+`git commit -m "your latest message"`
+
+finally
+
 `git push origin main`
