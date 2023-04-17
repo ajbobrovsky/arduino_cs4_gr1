@@ -234,7 +234,7 @@ void loop()
       delay(eighth);
     noTone(output);
     //                      C#5 q-note (8th)
-}   tone(output,Cs5);
+    tone(output,Cs5);
       delay(eighth);
     noTone(output);
     //                      C#5 8th
@@ -264,7 +264,7 @@ void loop()
     // ----------------------------- measure 17 
     tone (output,Gs4);
 
-{   // ------------------------------------------------------------------------- MEASURE 32 
+  // ------------------------------------------------------------------------- MEASURE 32 
     //                       E3 (dot8th)
       Tone(output,E3)
         Delay(doteighth)
@@ -273,3 +273,5 @@ void loop()
       Tone(output,B3)
         Delay(sixteenth)
       noTone(output)}
+
+}
