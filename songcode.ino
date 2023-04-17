@@ -33,7 +33,7 @@ int As4 = 466.2;
 int B4 = 493.9;
 int C5 = 523.3;
 int Cs5 = 554.4;
-int Eb5 = 622.3;
+int Ds4 = 622.3;
 int E5 = 659.3;
 int Fs5 = 740;
 
