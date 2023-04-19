@@ -266,17 +266,337 @@ void loop()
 
 {   // ------------------------------------------------------------------------- MEASURE 32 
     //                       E3 (dot8th)
-      Tone (output,E3)
-        Delay (doteighth)
-      NoTone (output)
+      Tone (output,E3);
+        Delay (doteighth);
+      NoTone (output);
     //                        B3 (sixteenth)
-      Tone (output,B3)
-        Delay (sixteenth)
-      noTone (output)
-    // ----------------------- 8th rest
-      Delay (eighth)
-      //
-      Tone (output,cs4)
+      Tone (output,B3);
+        Delay (sixteenth);
+      noTone (output);
+    //                        8th rest
+      Delay (eighth);
+    //
+      Tone (output,Cs4);
+        Delay (eighth);
+      noTone (output);
+    //                        E3 doteighth
+      Tone (output,E3);
+        Delay (doteighth);
+      noTone (output);
+    //                         B3 sixteenth
+      Tone (output,B3);
+        Delay (sixteenth);
+      noTone (output);
+    //                         8th rest 
+      Delay(eighth);
+    //                         C#5 (overlapping 8th note) 
+      Tone (output,Cs5);
+        Delay (eighth);
+      noTone (output);
+    //------------------------------------------ Measure 33
+    //                          G#5 
+      Tone (output,Gs5);
+        Delay (eighth);
+      noTone (output); 
+    //                         G#5
+      Tone (output,Gs5);
+        Delay (eighth);
+      noTone (output);
+    //                         F#5 
+      Tone (output,Fs5);
+        Delay(eighth);
+      noTone(output);
+    //                        8th rest 
+      Delay(eighth);
+    //                         E5
+      Tone (output,E5);
+        Delay(eighth);
+      noTone(output);
+    //                         D#5 
+      Tone (output,Ds5);
+        Delay (eighth);
+      noTone (output);
+    //                        E5 
+      Tone (output,E5);
+        Delay (doteighth);
+      noTone (output);
+    //                        D#5 overlapping eighth
+      Tone (output,Ds5);
+        Delay (eighth);
+      noTone (output);
+    //----------------------------------------------- Measure 34 
+      Tone (output,E3);
+        Delay (doteighth);
+      noTone (output);
+    //                        B3
+      Tone (output,B3);
+        Delay (sixteenth); 
+      noTone (output);
+    //                        8th rest 
+      Delay (eighth);
+    //                        C#4
+      Tone (output,Cs4);
+        Delay (eighth);
+      noTone (output);
+    //                        G#5 
+      Tone (output,Gs5);
+        Delay (eighth);
+      noTone (output);
+    //                        G#5
+      Tone (output,Gs5);
         Delay (eighth)
-      noTone (output)
+      noTone (output);
+    //                        F#5
+      Tone (output,Fs5);
+        Delay (eighth):
+      noTone (output);
+    //                        E5 
+      Tone (output,E5);
+        Delay (eighth);
+      noTone (output);
+    //------------------------------------------- Measure 35 
+    //                        D#5
+      Tone (output,Ds5);
+        Delay (doteighth);
+      noTone (output);
+    //                        E5
+      Tone (output,E5);
+        Delay (sixteenth);
+      noTone (output);
+    //                        E5
+      Tone (output,E5);
+        Delay (eighth);
+      noTone (output);
+    //                        D#5
+      Tone (output,Ds5);
+        Delay (eighth);
+      noTone (output);
+    //                        C#5
+      Tone (output,Cs5);
+        Delay (doteighth);
+      noTone (output);
+    //                        B3
+      Tone (output,B3);
+        Delay (sixteenth);
+      noTone (output);
+    //                        8th rest 
+      Delay (eighth);
+    //                        C#4
+      Tone (output,Cs4);
+        Delay (eighth);
+      noTone (output);
+    //------------------------------------- Measure 36
+    //                        G#5
+      Tone (output,Gs5);
+        Delay (eighth);
+      noTone (output);
+    //                        F#5
+      Tone (output,Fs5);
+        Delay (eighth);
+      noTone (output);
+    //                        E5
+      Tone (output,E5);
+        Delay (eighth);
+      noTone (output);
+    //                        D#5
+      Tone (output,Ds5):
+        Delay (sixteenth);
+      noTone (output);
+    //                        E5
+      Tone (output,E5);
+        Delay (eigtht);
+      noTone (output);
+    //                        D#5
+      Tone (output,Ds5);
+        Delay (sixteenth);
+      noTone (output);
+    //                        8th rest 
+      Delay (eighth)
+    //                        C#5 
+      Tone (output,Cs5);
+        Delay (eighth);
+      noTone (output);
+    //--------------------------------------- Measure 37
+    //                        C#5 
+      Tone (output,Cs5);
+        Delay (doteighth);
+      noTone (output);
+    //                        D#5
+      Tone (output,Ds5);
+        Delay (sixteenth);
+      noTone (output);
+    //                        8th rest 
+      Delay (eighth);
+    //                        C#5
+      Tone (output,Cs5);
+        Delay (eighth);
+      noTone (output);
+    //                        B4
+      Tone (output,B4);
+        Delay (eighth);
+      noTone (output);
+    //                        C#5
+      Tone (output,Cs5);
+        Delay (quarter);
+      noTone (output);
+    //                        A#4
+      Tone (output,As4);
+        Delay (sixteenth);
+      noTone (output);
+    //                        8th rest 
+      Delay (eighth);
+    //                        B3
+      Tone (output,B3);
+        Delay (eighth);
+      noTone (output);
+    //------------------------------------- Measure 38 
+    //                        D#3
+      Tone (output,Ds3);
+        Delay (doteighth);
+      noTone (output);
+    //                        A#3
+      Tone (output,As3);
+        Delay (sixteenth);
+      noTone (output);
+    //                        8th rest 
+      Delay (eighth);
+    //                        B3 
+      Tone (output,B3);
+        Delay (eighth);
+      noTone (output);
+    //                        d#3
+      Tone (output,Ds3);
+        Delay (doteighth);
+      noTone (output);
+    //                        A#3
+      Tone (output,As3);
+        Delay (sixteenth);
+      noTone (output);
+    //                        8th rest 
+      Delay (eighth);
+    //                        C#5
+      Tone (output,Cs5);
+        Delay (eighth):
+      noTone (output);
+    //------------------------------------ Measure 39
+    //                        B4
+      Tone (output,B4);
+        Delay (doteighth);
+      noTone (output);
+    //                        F#4
+      Tone (output,Fs4);
+        Delay (sixteenth);
+      noTone (output);
+    //                        8th rest
+      Delay (eighth);
+    //                        G#4
+      Tone (output,Gs4);
+        Delay (eighth);
+      noTone (output);
+    //                        G#3
+      Tone (output,Gs3);
+        Delay (doteighth);
+      noTone (output);
+    //                        F#4
+      Tone (output,Fs4);
+        Delay (sixteenth);
+      noTone (output);
+    //                        8th rest 
+      Delay (eighth);
+    //                        G#4
+      Tone (output,Gs4);
+        Delay (eighth);
+      noTone (output);
+    //----------------------------------- Measure 40
+    //                        E3
+      Tone (output,E3);
+        Delay (doteighth);
+      noTone (output);
+    //                        B3
+      Tone (output,B3);
+        Delay (sixteenth);
+      noTone (output);
+    //                        8th rest 
+      Delay (eighth);
+    //                        C#4
+      Tone (output,Cs4);
+        Delay (eighth);
+      noTone (output);
+    //                        E3
+      Tone (output,E3);
+        Delay (doteighth);
+      noTone (output);
+    //                        B3
+      Tone (output,B3);
+        Delay (sixteenth);
+      noTone (output);
+    //                        8th rest 
+      Delay (eighth);
+    //                        C#4
+      Tone (output,Cs4);
+        Delay (eighth);
+      noTone (output);
+    //--------------------------------- Measure 41
+    //                        F#5 
+      Tone (output,Fs5);
+        Delay (quarter);
+      noTone (output);
+    //                        C#5
+      Tone (output,Cs5);
+        Delay (quarter);
+      noTone (output);
+    //                        E3
+      Tone (output,E3);
+        Delay(whole);
+      noTone (output);
+    //-------------------------------- Measure 42
+    //                        B4
+      Tone (output,B4);
+        Delay (quarter);
+      noTone (output);
+    //                        E3
+      Tone (output,E3);
+        Delay (eighth);
+      noTone (output);
+    //                        C#3
+      Tone (output,Cs3);
+        Delay (eighth);
+      noTone (output);
+    //------------------------------- Measure 43 
+    //                        F#5
+      Tone (output,Fs5);
+        Delay (quarter);
+      noTone (output);
+    //                        A#4
+      Tone (output,As4);
+        Delay (quarter);
+      noTone (output);
+    //                        C#3
+      Tone (output,Cs3);
+        Delay (halfnote);
+      noTone (output);
+    //-------------------------------- Measure 44
+    //                        C#3
+      Tone (output,Cs3);
+        Delay (quarter);
+      noTone (output);
+    //                        A#4 
+      Tone (output,As4);
+        Delay (quarter);
+      noTone (output);
+    //                        G#4
+      Tone (output,Gs4);
+        Delay (quarter);
+      noTone (output);
+    //                        C#3
+      Tone (output,Cs3);
+        Delay (quarter);
+      noTone (output);
+    //-------------------------------- Measure 45 
+    
+
+
+    
+
+
     )}
