@@ -598,6 +598,55 @@ void loop()
         Delay (quarter);
       noTone (output);
     //-------------------------------- Measure 45 
+    //                        A#4
+      Tone (output,As4);
+        Delay (quarter);
+      noTone (output);
+    //                        F#4
+      Tone (output,Fs4);
+        Delay (quarter);
+      noTone (output)
+    //                        D#3 
+      Tone (output,Ds3);
+        Delay (whole);
+      noTone (output);
+    //------------------------------- Measure 46
+    //                        A#4
+      Tone (output,As4);
+        Delay (quarter);
+      noTone (output);
+    //                        C#5
+      Tone (output,Cs5);
+        Delay (quarter);
+      noTone (output);
+    //------------------------------ Measure 47
+    //                        G#4
+      Tone (output,Gs4);
+        Delay (quarter);
+      noTone (output);
+    //                        D#3
+      Tone (output,Ds3);
+        Delay (half+quarter);
+      noTone (output);
+    //-------------------------------- Measure 48 
+    //                       G#4
+      Tone (output,Gs4);
+        Delay (quarter);
+      noTone (output);
+    //                       B4
+      Tone (output,B4);
+        Delay (quarter);
+      noTone (output);
+    //                        G#4
+      Tone (output,Gs4);
+        Delay (quarter);
+      noTone (output);
+    //                        C#5
+      Tone (output,Cs5);
+        Delay (quarter);
+      noTone(output);
+    //----------------------------------------------------- End Of song ?
+                          
     
 
 
