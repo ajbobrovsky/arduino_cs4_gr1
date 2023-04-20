@@ -251,8 +251,136 @@ void loop()
     noTone(output);
     //--------------------------------------Measure 7 
     //                      G#4 q-note (dot8th)
-                          
-    
+    tone(output,Gs4);
+      delay(doteighth);
+    noTone(output);
+    //                     Fs4
+    tone(output,Fs4);
+      delay(sixteenth);
+    noTone(output);
+    //                     8th rest
+    delay(eighth);
+    //                    Gs4
+    tone(output,Gs4);
+      delay(eighth);
+    noTone(output);
+    //                    Gs3
+    tone(output,Gs3);
+      delay(doteighth);
+    noTone(output);
+    //                     Fs4
+    tone(output,Fs4);
+      delay(sixteenth);
+    noTone(output);
+    //                     8th rest
+    delay(eighth);
+    //                    Gs4
+    tone(output,Gs4);
+      delay(eighth);
+    noTone(output);
+    //                                      measure 8
+    tone(output,Gs4);
+      delay(doteighth);
+    noTone(output);
+    //
+    tone(output,B3);
+      delay(sixteenth);
+    noTone(output);
+    //
+    tone(output,B4);
+      delay(eighth);
+    noTone(output);
+    //
+    tone(output,Gs4);
+      delay(doteighth);
+    noTone(output);
+    //
+    tone(output,B3);
+      delay(sixteenth);
+    noTone(output);
+    //
+    tone(output,Cs5);
+      delay(eighth);
+    noTone(output);
+    //
+    tone(output,Cs4);
+      delay(eighth);
+    noTone(output);
+    //------------------------------------measure 9
+    //
+    tone(output,Gs5);
+      delay(doteighth);
+    noTone(output);
+    //
+    tone(output,B3);
+      delay(sixteenth);
+    noTone(output);
+    //
+    tone(output,Ds5);
+      delay(eighth);
+    noTone(output);
+    //
+    tone(output,Cs4);
+      delay(eighth);
+    noTone(output);
+    //
+    tone(output,Cs3);
+      delay(doteighth);
+    noTone(output);
+    //
+    tone(output,B3);
+      delay(sixteenth);
+    noTone(output);
+    //
+    delay(eighth);
+    //
+    tone(output,Cs4);
+      delay(eighth);
+    noTone(output);
+    //
+    //------------------------------------measure 10
+    //
+    tone(output,Gs5);
+      delay(doteighth);
+    noTone(output);
+    //
+    tone(output,B3);
+      delay(sixteenth);
+    noTone(output);
+    //
+    tone(output,Fs5);
+      delay(quarter);
+    noTone(output);
+    //
+    tone(output,E3);
+      delay(eighth);
+    noTone(output);
+    //
+    tone(output,E5);
+      delay(eighth);
+    noTone(output);
+    //
+    tone(output,Ds5);
+      delay(eighth);
+    noTone(output);
+    //
+    tone(output,Gs5);
+      delay(eighth);
+    noTone(output);
+    //
+    //-----------------------------------measure 11
+    //
+    tone(output,Cs3);
+      delay(eighth);
+    noTone(output);
+    //
+    tone(output,Ds5);
+      delay(quarter);
+    noTone(output);
+    //
+    tone(output,Cs4);
+      delay(eighth);
+    noTone(output);
     /*------------------------------------------------------------------------------------------------------------------------------------------
                                                                       PATRICIA
     */
