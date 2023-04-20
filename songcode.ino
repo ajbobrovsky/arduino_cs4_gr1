@@ -63,8 +63,11 @@ void setup()
 void loop()
 {
   for (int i = 0; i < 1; i++){
-    // ------------------------------------------------------------------------ Measure 1,   /// IV section
-    //                    F#5 q-note //(underlying dotted eighth note)
+    /*-------------------------------------------------------------------------------------------------------------------------------------------
+                                                                      ANDREW
+    */                                                                  
+    // ----------------------------------------- Measure 1
+    //                    F#5 q-note 
     tone(output, Fs5);    
       delay(doteighth);  
     noTone(output);
@@ -72,7 +75,7 @@ void loop()
     tone(output,B4);
       delay(sixteenth);
     noTone(output);
-    //                    C#5 q-note (overlapping an 8th note of same pitch)
+    //                    C#5 q-note 
     tone(output, Cs5);   
       delay(eighth);   
     noTone(output);  
@@ -93,7 +96,7 @@ void loop()
     tone(output,Cs5);
       delay(eighth);
     noTone(output);
-    // ------------------------------------------------------------------------ Measure 2
+    // --------------------------------------- Measure 2
     //                    E4 doteight     
     tone(output,E4);    
       delay(doteighth);
@@ -122,7 +125,7 @@ void loop()
     tone(output,Cs5);
       delay(eighth);
     noTone(output);
-    // ------------------------------------------------------------------------Measure 3   /// ii Section
+    // ---------------------------------------Measure 3 
     //                     F#5 q-note
     tone(output,Fs5);
       delay(doteighth); //(underlying dotted eighth note)
@@ -153,7 +156,7 @@ void loop()
     tone(output,Cs5);
       delay(eighth);
     noTone(output);
-    //------------------------------------------------------------------------Measure 4
+    //----------------------------------------Measure 4
     //                    C#4 dot8th
     tone(output,Cs4);
       delay(doteighth);
@@ -184,7 +187,7 @@ void loop()
     tone(output,Cs5);
       delay(eighth);
     noTone(output);
-    //------------------------------------------------------------------------Measure 5 /// iii Section
+    //----------------------------------------Measure 5 
     //                    A#4 q-note (dot 8th)
     tone(output,As4);
       delay(doteighth);
@@ -215,7 +218,7 @@ void loop()
     tone(output,Cs4);
       delay(eighth);  
     noTone(output);
-    //------------------------------------------------------------------------ Measure 6
+    //---------------------------------------- Measure 6
     //                      D#4 dot8th
     tone(output,Ds4);
       delay(doteighth);
@@ -246,11 +249,13 @@ void loop()
     tone(output,Cs5);
       delay(eighth);
     noTone(output);
-    //------------------------------------------------------------------------Measure 7 /// V section
+    //--------------------------------------Measure 7 
     //                      G#4 q-note (dot8th)
                           
     
-
+    /*------------------------------------------------------------------------------------------------------------------------------------------
+                                                                      PATRICIA
+    */
     // ----------------------------------- measure 16 
     //                      C#5 8th
     tone (output,E4);
@@ -268,8 +273,10 @@ void loop()
     noTone (output);
     // ----------------------------- measure 17 
     tone (output,Gs4);
-
-   // ------------------------------------------------------------------------- MEASURE 32 
+    /*--------------------------------------------------------------------------------------------------------------------------------------------
+                                                                      FABIAN
+    */
+   // --------------------------------------- MEASURE 32 
     //                       E3 (dot8th)
       Tone (output,E3);
         Delay (doteighth);
@@ -359,7 +366,7 @@ void loop()
       Tone (output,E5);
         Delay (eighth);
       noTone (output);
-    //------------------------------------------- Measure 35 
+    //----------------------------------------- Measure 35 
     //                        D#5
       Tone (output,Ds5);
         Delay (doteighth);
@@ -645,25 +652,6 @@ void loop()
       Tone (output,Cs5);
         Delay (quarter);
       noTone(output);
-    //----------------------------------------------------- End Of song ?
-                          
-    
-
-
-    
-
-
-    )}
-      tone(output,E3);
-        delay(doteighth);
-      noTone(output);
-    //                        B3 (sixteenth)
-      tone(output,B3);
-        delay(sixteenth);
-      noTone(output);
-
-
-
-      //------------------------------------------------------------------------- END OF SONG
+    //------------------------------------------------------------------------- END OF SONG-------------------------------------------------------
   }
 }
