@@ -488,7 +488,7 @@ void loop()
       noTone (output);
     //                        F#5
       Tone (output,Fs5);
-        Delay (eighth):
+        Delay (eighth);
       noTone (output);
     //                        E5 
       Tone (output,E5);
@@ -539,12 +539,12 @@ void loop()
         Delay (eighth);
       noTone (output);
     //                        D#5
-      Tone (output,Ds5):
+      Tone (output,Ds5);
         Delay (sixteenth);
       noTone (output);
     //                        E5
       Tone (output,E5);
-        Delay (eigtht);
+        Delay (eighth);
       noTone (output);
     //                        D#5
       Tone (output,Ds5);
@@ -616,7 +616,7 @@ void loop()
       Delay (eighth);
     //                        C#5
       Tone (output,Cs5);
-        Delay (eighth):
+        Delay (eighth);
       noTone (output);
     //------------------------------------ Measure 39
     //                        B4
@@ -761,7 +761,7 @@ void loop()
       noTone (output);
     //                        D#3
       Tone (output,Ds3);
-        Delay (half+quarter);
+        Delay (halfnote+quarter);
       noTone (output);
     //-------------------------------- Measure 48 
     //                       G#4
