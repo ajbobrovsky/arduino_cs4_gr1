@@ -563,11 +563,11 @@ void loop()
     delay (eighth);
     noTone (output);
     //
-    tone (output,Eb4);
+    tone (output,Ds4);
     delay (eighth);
     noTone (output);
     //
-    tone (output,Eb4);
+    tone (output,Ds4);
     delay (eighth);
     noTone (output);
     //
@@ -587,7 +587,7 @@ void loop()
     delay (doteighth);
     noTone (output);
     //
-    tone (output, Eb4);
+    tone (output, Ds4);
     delay (eighth);
     noTone (output);
     // -----------------------8th rest 
@@ -623,11 +623,11 @@ void loop()
     delay (eighth);
     noTone (output);
     //
-    tone (output, Eb4);
+    tone (output, Ds4);
     delay (eighth);
     noTone (output);
     //
-    tone (output,Eb4);
+    tone (output,Ds4);
     delay (eighth);
     noTone (output);
     //
@@ -655,11 +655,11 @@ void loop()
     delay (eighth);
     noTone (output);
     //
-    tone (output, Eb4);
+    tone (output, Ds4);
     delay (eighth);
     noTone (output);
     //
-    tone (output, Eb4);
+    tone (output, Ds4);
     delay (eighth);
     noTone (output);
     //
@@ -671,11 +671,11 @@ void loop()
     delay (eighth);
     noTone (output);
     //
-    tone (output, Eb4);
+    tone (output, Ds4);
     delay (eighth);
     noTone (output);
     // ----------------- measure 22 
-    tone (output, Eb4);
+    tone (output, Ds4);
     delay (eighth);
     noTone (output);
     //
@@ -683,7 +683,7 @@ void loop()
     delay (eighth);
     noTone (output);
     //
-    tone (output,Eb4);
+    tone (output,Ds4);
     delay (eighth);
     noTone (output);
     //
@@ -777,7 +777,7 @@ void loop()
     delay (eighth);
     noTone (output);
     //
-    tone (output, Eb4);
+    tone (output, Ds4);
     delay (eighth);
     noTone (output);
     //
@@ -825,7 +825,7 @@ void loop()
     delay (eighth);
     noTone (output);
     //----------------- measure 27 
-    tone (output,Eb4);
+    tone (output,Ds4);
     delay (eighth);
     noTone (output);
     //
@@ -873,7 +873,7 @@ void loop()
     delay (eighth);
     noTone (output);
     //
-    tone (output,Eb4);
+    tone (output,Ds4);
     delay (doteighth);
     noTone (output);
     //
@@ -885,11 +885,11 @@ void loop()
     delay (eighth);
     noTone (output);
     //
-    tone (output,Eb4);
+    tone (output,Ds4);
     delay (eighth);
     noTone (output);
     //---------------measure 29 
-    tone (output,Eb4);
+    tone (output,Ds4);
     delay(doteighth);
     noTone (output);
     //
@@ -899,11 +899,11 @@ void loop()
     // -----------8th rest 
     delay (sixteenth);
     //
-    tone (output,Eb4);
+    tone (output,Ds4);
     delay (sixteenth);
     noTone (output);
     //
-    tone (output,Eb4);
+    tone (output,Ds4);
     delay (eighth);
     noTone (output);
     //
@@ -927,7 +927,7 @@ void loop()
     delay (eighth);
     noTone (output);
     //-------------- measure 30 
-    tone (output,Eb4);
+    tone (output,Ds4);
     delay (doteighth);
     noTone (output);
     //
@@ -941,7 +941,7 @@ void loop()
     delay (eighth);
     noTone (output);
     //
-    tone (output,Eb4);
+    tone (output,Ds4);
     delay (doteighth);
     noTone (output);
     //
