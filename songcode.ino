@@ -41,6 +41,9 @@ int As5 = 932.3;
 int B3 = 246.9;//---------B's
 int B4 = 493.9;
 int B5 = 987.8;
+//                                                    **variables**
+// 60000/Tempo= beat duration
+int tempo = 60000/120; // tempo 113 BPM
 
 // note rythm values
 int halfnote = tempo*2;
@@ -50,9 +53,7 @@ int eighth = tempo/2;
 int doteighth = tempo*.75;
 int sixteenth = tempo/4;
 int whole = tempo*4;
-//                                                    **variables**
-// 60000/Tempo= beat duration
-int tempo = 60000/120; // tempo 113 BPM
+
 
 void setup()
 {
@@ -514,32 +515,32 @@ void loop()
     */
    // --------------------------------------- MEASURE 32 
     //                       E3 (dot8th)
-      Tone (output,E3);
+      tone (output,E3);
         delay (doteighth);
       noTone (output);
     //                        B3 (sixteenth)
-      Tone (output,B3);
-        Delay (sixteenth);
+      tone (output,B3);
+        delay (sixteenth);
       noTone (output);
     //                        8th rest
-      Delay (eighth);
+      delay (eighth);
     //
-      Tone (output,Cs4);
-        Delay (eighth);
+      tone (output,Cs4);
+        delay (eighth);
       noTone (output);
     //                        E3 doteighth
-      Tone (output,E3);
-        Delay (doteighth);
+      tone (output,E3);
+        delay (doteighth);
       noTone (output);
     //                         B3 sixteenth
-      Tone (output,B3);
-        Delay (sixteenth);
+      tone (output,B3);
+        delay (sixteenth);
       noTone (output);
     //                         8th rest 
-      Delay(eighth);
+      delay(eighth);
     //                         C#5 (overlapping 8th note) 
-      Tone (output,Cs5);
-        Delay (eighth);
+      tone (output,Cs5);
+        delay (eighth);
       noTone (output);
     //------------------------------------------ Measure 33
     //                          G#5 
