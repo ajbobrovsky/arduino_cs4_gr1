@@ -1095,7 +1095,7 @@ void loop()
       noTone(output);
     //                        G#5
       tone(output,Gs5);
-        delay(eighth)
+        delay(eighth);
       noTone(output);
     //                        F#5
       tone(output,Fs5);
