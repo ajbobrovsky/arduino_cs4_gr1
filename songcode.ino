@@ -1162,7 +1162,7 @@ void loop()
         delay(sixteenth);
       noTone(output);
     //                        8th rest 
-      delay(eighth)
+      delay(eighth);
     //                        C#5 
       tone(output,Cs5);
         delay(eighth);
@@ -1351,7 +1351,7 @@ void loop()
     //                        F#4
       tone(output,Fs4);
         delay(quarter);
-      noTone(output)
+      noTone(output);
     //                        D#3 
       tone(output,Ds3);
         delay(whole);
